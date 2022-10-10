@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CSE 110 Meeting Minutes</title>
+    <link rel="icon" type="image/x-icon" href="./fav.ico">
+  </head>
+  <body>
+    <header>
+        <h1><div><u>Meeting Minutes</u></div></h1>
+        <h2><i>Date: October 6, 2022</i></h2>
+        <h3>
+            <details>
+                <summary><span style="color:steelblue">CSE 110</span></summary>
+                Introduction to software development and engineering methods.
+            </details>
+            <br>
+            <a href="https://catalog.ucsd.edu/courses/CSE.html">Check out other CSE courses here!</a>
+        </h3>
+        <img src="https://drive.google.com/uc?export=view&id=1vm0nTgTw8Gc7gGYmVHXV-eIPQPz91A_c" 
+        alt=CSEpicture
+        width = 250/>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <b>Attendance List:</b>
+            <nav>
+                <ul>
+                    <li>Genevieve</li>
+                    <li>Diana</li>
+                    <li>Rick</li>
+                    <li>Jared</li>
+                </ul>
+            </nav>
+        </section>
+        <section>
+            <strong>Agenda:</strong>
+            <ol> 
+                <li>Introductions</li> 
+                <li>Assigning Roles</li> 
+                <li>Brainstorming Project Ideas</li> 
+                <li><em>Unfinished business</em></li>
+            </ol>
+        </section>
+        <p>You can access the meeting audio and video here:</p>
+        <audio 
+            controls 
+            src="ff-16b-2c-44100hz.aac">
+            <a href="ff-16b-2c-44100hz.aac">
+                Listen to audio
+            </a>
+        </audio>
+        <br>
+        <video width="320" height="240" controls>
+            <source src="video.mp4" type=video/mp4>
+        </video>
+        <br>
+        <br>
+    </main>
+    <footer>
+        <form>
+            <fieldset>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"><br><br>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date"><br><br>
+                <input type="checkbox" id="attendance" name="attendance">
+                <label for="attendance">Attended Meeting</label><br><br>
+                <input type="radio" id="sound" name="sound">
+                <label for="sound">Listened to Audio</label>
+            </fieldset>
+            <br>
+            <textarea id="w3review" name="w3review" rows="4" cols="50">Notes:</textarea>
+            <br>
+            <section>
+            <label for="answer">Did these notes cover everything from the meeting?</label>
+            <select name="answer" id="answer">
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+            <br>
+            <label for="choice">What do you rate this page out of five?</label>
+            <input list="rate" id="choice" name="choice">
+            <datalist id="rate">
+                <option value="one">
+                <option value="two">
+                <option value="three">
+                <option value="four">
+                <option value="five">
+            </datalist>
+            <br>
+            <button>Submit</button>
+            </section>
+        </form>
+    </footer>
+  </body>
+</html>
