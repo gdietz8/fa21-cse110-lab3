@@ -1,0 +1,119 @@
+body {
+    padding-left: 15em;
+    font-family: Georgia, "Times New Roman",
+          Times, serif;
+    background-color: #fef698;
+    color: purple;
+}
+
+ul.navbar {
+    position: absolute;
+    font-size: 130%;
+    top: 1.75em;
+    right: 1em;
+    left: 1em;
+    bottom: 1em;
+    width: 9em 
+}
+
+div {
+    width: 13cm;
+    padding-left: 14em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    border: 1.5mm solid rgb(245,119,119);
+  }
+
+p{
+    position: relative;
+    text-decoration: gray wavy underline;
+    text-align: justify;
+    display: block;
+}
+.wrapper {
+    width: 400px;
+    border: 10px;
+    border-width: 0.5cm;
+    border-radius: 1cm;
+    border-color: purple;
+    border-style: double;
+    padding: 1em 25em 1em 1em;
+}
+  
+.px {
+    width: 200px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    background: hsl(210, 90%, 90%);
+}
+  
+.percent {
+    width: 40%;
+    margin-left: 1rem;
+    padding: 1rem, 1rem, 1rem, 1rem;
+    background: hsl(210, 90%, 90%);
+    display: inline;
+    position: relative;
+}
+
+.lh {
+    height: 1lh;
+    margin: 2rem 1rem 1rem 1rem;
+    background: hsl(210, 90%, 90%);
+    display: inline-block;
+}
+
+.ex {
+    height: 2ex;
+    width: 55ex;
+    max-width: 100ex;
+    min-width: 10ex;
+    margin: 0.5rem 1rem 1rem 1rem;
+    background: hsl(210, 90%, 90%);
+    display: inline-block;
+}
+
+.flex {
+    padding-right: 15em;
+    margin: inherit;
+    display: flex;
+    flex-flow: row wrap;
+    border-color: purple;
+    flex-direction:row;
+    justify-content: flex-end;
+    background-color: rgb(163, 240, 230);
+  }
+
+  .flexitem{
+    background-color: white;
+    flex-basis: auto; 
+    align-self: stretch;
+  }
+
+  .grid {
+    margin: inherit;
+    display: grid;
+    padding-right: 15em;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  .griditem {
+    width: 4.2cm;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(237, 92, 92, 0.8);
+    padding: 2px;
+    font-size: 30px;
+    text-align: left;
+  }
+
+button:hover {
+    color: hotpink;
+  }
+
+button:active{
+    color: purple;
+}
