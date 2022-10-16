@@ -4,14 +4,19 @@
     <meta charset="UTF-8" />
     <title>CSE 110 Meeting Minutes</title>
     <link rel="icon" type="image/x-icon" href="./fav.ico">
+    <link rel="stylesheet" href="externalgenna.css">
   </head>
   <body>
+    <!-- Site navigation menu -->
+    <ul class="navbar">
+        <li><a href="index.html">Reset Page</a>
+    </ul>
     <header>
-        <div><h1><u>Meeting Minutes</u></h1></div>
+        <div><h1 style="color:rgb(200, 100, 200);"></h1style><u>Meeting Minutes</u></h1></div>
         <h2><i>Date: October 6, 2022</i></h2>
         <h3>annotated by Genevieve Dietz</h3>
         <details>
-            <summary><span style="color:steelblue">CSE 110</span></summary>
+            <summary><span style="color:steelblue"><b>CSE 110</b></span></summary>
             Introduction to software development and engineering methods.
         </details>
         <br>
@@ -25,7 +30,7 @@
     <hr>
     <main>
         <section>
-            <b>Attendance List:</b>
+            <b style="background-color:#FFBEF2;">Attendance List:</b>
             <nav>
                 <ul>
                     <li>Genevieve</li>
@@ -36,7 +41,7 @@
             </nav>
         </section>
         <section>
-            <strong>Agenda:</strong>
+            <strong style="background: hsl(265, 85%, 87%);">Agenda:</strong>
             <ol> 
                 <li>Introductions</li> 
                 <li>Assigning Roles</li> 
@@ -94,6 +99,36 @@
             <button>Submit</button>
             </section>
         </form>
+        <br>
+
+        <div class="box px">I am 200px wide</div>
+        <br>
+        <div class="box percent">I am 40% wide</div>
+        <br>
+        <div class="wrapper">
+            <div class="box px">I am 200px wide</div>
+            <br>
+            <div class="box percent">I am 40% wide</div>
+            <br>
+            <div class="box lh">I am 2lh wide</div>
+            <br>
+            <div class="box ex">I am 55ex wide</div>
+        </div>
+        <br>
+        <div class="flex">
+            <div class="flexitem">1</div>
+            <div class="flexitem">2</div>
+            <div class="flexitem">3</div>
+        </div>
+        <br>
+        <div class="grid">
+            <div class="griditem">1</div>
+            <div class="griditem">2</div>
+            <div class="griditem">3</div>  
+            <div class="griditem">4</div>
+            <div class="griditem">5</div>
+            <div class="griditem">6</div>
+          </div>
     </footer>
   </body>
 </html>
