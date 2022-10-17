@@ -1,14 +1,21 @@
 body {
+    /*moves the body text over for the navigation bar*/
     padding-left: 15em;
+    /*setting text font for the website*/
     font-family: Georgia, "Times New Roman",
           Times, serif;
+    /*setting the website background to be yellow*/
     background-color: #fef698;
+    /*setting the website text to be putple*/
     color: purple;
 }
 
 ul.navbar {
+    /*navbar doesn't move when you scroll on the page*/
     position: absolute;
+    /*increasing the text size*/
     font-size: 130%;
+    /*lining up the text with the header*/
     top: 1.75em;
     right: 1em;
     left: 1em;
@@ -17,110 +24,149 @@ ul.navbar {
 }
 
 div {
+    /*setting position for the items in div*/
     width: 13cm;
-    padding-left: 14em;
+    padding-left: 1em;
     padding-top: 1em;
     padding-bottom: 1em;
     padding-right: 1em;
+    /*anything in div has a pink border*/
     border: 1.5mm solid rgb(245,119,119);
   }
 
 p{
+    /*the position of <p></p> text depends on your screen*/
     position: relative;
-    text-decoration: gray wavy underline;
+    /*any p property text is in pink with a wavy line underneath*/
+    text-decoration: lightpink wavy underline;
     text-align: justify;
+    /*generates line breaks both before and after the element*/
     display: block;
 }
 .wrapper {
-    width: 400px;
+    /*setting the size of the wrapper border*/
+    width: 200px;
     border: 10px;
     border-width: 0.5cm;
     border-radius: 1cm;
+    padding: 1em 25em 1em 1em;
+    /*creates a purple rounded border*/
     border-color: purple;
     border-style: double;
-    padding: 1em 25em 1em 1em;
 }
   
 .px {
+    /*setting the size of the text box in px*/
     width: 200px;
+    /*setting the position of the box in rem*/
     margin-top: 1rem;
     margin-bottom: 1rem;
     margin-right: 1rem;
     margin-left: 1rem;
+    /*adding a light blue background*/
     background: hsl(210, 90%, 90%);
 }
   
 .percent {
+    /*setting the size of the text box in %*/
     width: 40%;
+    /*setting its position*/
     margin-left: 1rem;
     padding: 1rem, 1rem, 1rem, 1rem;
-    background: hsl(210, 90%, 90%);
     display: inline;
     position: relative;
+    /*adding a light blue background*/
+    background: hsl(210, 90%, 90%);
 }
 
 .lh {
+    /*setting the height of the text box using lh*/
     height: 1lh;
-    margin: 2rem 1rem 1rem 1rem;
-    background: hsl(210, 90%, 90%);
+    /*setting its position*/
     display: inline-block;
+    margin: 2rem 1rem 1rem 1rem;
+    /*adding a light blue background*/
+    background: hsl(210, 90%, 90%);
 }
 
 .ex {
+    /*setting the size of the text box using ex*/
     height: 2ex;
     width: 55ex;
     max-width: 100ex;
     min-width: 10ex;
-    margin: 0.5rem 1rem 1rem 1rem;
-    background: hsl(210, 90%, 90%);
+    /*setting its position*/
+    margin: auto;
     display: inline-block;
+    /*adding a light blue background*/
+    background: hsl(210, 90%, 90%);
 }
 
 .flex {
+    /*creating a flex box with 3 items within it*/
+    display: flex;
+    /*setting its position*/
     padding-right: 15em;
     margin: inherit;
-    display: flex;
+    /*there is one item to a row*/
     flex-flow: row wrap;
+    /*the flex box has a purple border*/
     border-color: purple;
+    /*adjusting its structure*/
     flex-direction:row;
     justify-content: flex-end;
+    row-gap: 10px;
+    /*adding a light blue background*/
     background-color: rgb(163, 240, 230);
   }
 
   .flexitem{
+    /*the items within have a white background*/
     background-color: white;
-    flex-basis: auto; 
+    flex-basis: auto;
+    /*overrides a grid or flex item's align-items value*/
     align-self: stretch;
   }
 
   .grid {
+    /*creating a grid with 6 items within it*/
     margin: inherit;
     display: grid;
+    /*setting its position*/
     padding-right: 15em;
     grid-template-columns: auto auto auto;
+    /*adding a blue background*/
     background-color: #2196F3;
+    /*adjusting its structure*/
     padding: 10px;
+    column-gap: 5px;
+    row-gap: 10px;
   }
   .griditem {
-    width: 4.2cm;
+    /*the items within have a white background and pink border*/
     background-color: rgba(255, 255, 255, 0.8);
     border: 1px solid rgba(237, 92, 92, 0.8);
-    padding: 2px;
+    /*setting their position*/ 
+    padding: 1px 0px 1px 1px;
+    width: 4.2cm;
+    /*increasing their font size*/
     font-size: 30px;
     text-align: left;
   }
 
 button:hover {
+    /*the submit button becomes pink when you hover over it*/
     color: hotpink;
   }
 
 button:active{
+    /*the submit button turns purple when you click it*/
     color: purple;
 }
 
 @media (hover: hover) {
+    /*used to test whether the user's primary input mechanism can hover over elements*/
     button:hover {
         color: yellow;
       }
-
   }
