@@ -6,8 +6,46 @@ body {
           Times, serif;
     /*setting the website background to be yellow*/
     background-color: #fef698;
-    /*setting the website text to be putple*/
+}
+
+b ~ nav {
+    /*the attendance list will be highlighted in white*/
+    background-color: white;
+}
+
+a[target=cool] {
+    background-color: paleturquoise;
+}
+
+h2 i {
+    /*the date will be highlighted in white*/
+    background-color: white;
+}
+
+div > p {
+    /*every p element with a div parent will be orange*/
+    right: 76%;
+    background-color: orange;
+}
+
+div + p {
+    /*the first p element that comes after div will be orange */
+    color: green;
+}
+
+#C2 {
+    /*the second header's size will be changed*/
+    font-size: 20px;
+}
+
+* {
+    /*setting the website text to be purple*/
     color: purple;
+}
+
+p.audio {
+    /*audio is a class of p and its text will be pink*/
+    color: hotpink;
 }
 
 ul.navbar {
@@ -66,6 +104,11 @@ p{
     /*adding a light blue background*/
     background: hsl(210, 90%, 90%);
 }
+
+.percent, .lh {
+    /*adding a light blue background to the percent and lh boxes*/
+    background: hsl(210, 90%, 90%);
+}
   
 .percent {
     /*setting the size of the text box in %*/
@@ -75,8 +118,6 @@ p{
     padding: 1rem, 1rem, 1rem, 1rem;
     display: inline;
     position: relative;
-    /*adding a light blue background*/
-    background: hsl(210, 90%, 90%);
 }
 
 .lh {
@@ -85,8 +126,6 @@ p{
     /*setting its position*/
     display: inline-block;
     margin: 2rem 1rem 1rem 1rem;
-    /*adding a light blue background*/
-    background: hsl(210, 90%, 90%);
 }
 
 .ex {

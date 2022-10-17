@@ -9,11 +9,13 @@
   <body>
     <!-- Site navigation menu -->
     <ul class="navbar">
-        <li><a href="index.html">Reset Page</a>
+        <li><a href="index.html" target="cool">Reset Page</a>
     </ul>
     <header>
         <div><h1 style="color:rgb(200, 100, 200);"></h1style><u>Meeting Minutes</u></h1></div>
-        <h2><i>Date: October 6, 2022</i></h2>
+        <br>
+        <h2 id="C1"><i>Date: October 6, 2022</i></h2>
+        <h2 id="C2">Meeting Type: Kickoff</h2>
         <h3>annotated by Genevieve Dietz</h3>
         <details>
             <summary><span style="color:steelblue"><b>CSE 110</b></span></summary>
@@ -49,7 +51,9 @@
                 <li><em>Unfinished business</em></li>
             </ol>
         </section>
-        <p>You can access the meeting audio and video here:</p>
+        <br>
+        <p class="audio">You can access the meeting audio and video here:</p>
+        <br>
         <audio 
             controls 
             src="ff-16b-2c-44100hz.aac">
@@ -116,12 +120,13 @@
         </div>
         <br>
         <div class="flex">
-            <div class="flexitem">Sign team contract.</div>
+            <p>Most important:</p>
+            <br><div class="flexitem">Sign team contract.</div>
             <div class="flexitem">Film individual intro video.</div>
             <div class="flexitem">Attend team bonding event.</div>
         </div>
+        <p><br>Seating chart for in person meetings:</p>
         <br>
-        <p><b>Seating chart for in person meetings:</b></p>
         <div class="grid">
             <div class="griditem">Jared</div>
             <div class="griditem">Genna</div>
